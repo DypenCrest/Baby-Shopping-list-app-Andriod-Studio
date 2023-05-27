@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home">
+        <menu>
+            <item
+                android:id="@+id/mcategory"
+                android:icon="@drawable/ic_category"
+                android:title="Categories" />
+            <item
+                android:id="@+id/mitem"
+                android:icon="@drawable/ic_item"
+                android:title="Manage Items" />
+        </menu>
+    </item>
+    <item android:title="User Setting">
+        <menu>
+            <item
+                android:id="@+id/msendsms"
+                android:icon="@drawable/ic_sms"
+                android:title="Send SMS" />
+            <item
+                android:id="@+id/mmuser"
+                android:icon="@drawable/ic_setting"
+                android:title="User Profile" />
+        </menu>
+    </item>
+
+    <item android:title="Logout">
+        <menu>
+            <item
+                android:id="@+id/mlogout"
+                android:icon="@drawable/ic_logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+</menu>
